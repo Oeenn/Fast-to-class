@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Hazards
+  - OneWayPlatform
   layers:
   - Default
   - TransparentFX
@@ -41,12 +43,21 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: backbackground
+    uniqueID: 287459571
+    locked: 0
   - name: background
     uniqueID: 2047095921
     locked: 0
   - name: interactables
     uniqueID: 4096874715
     locked: 0
+  - name: foreground
+    uniqueID: 730830587
+    locked: 0
   - name: player
     uniqueID: 4034265163
+    locked: 0
+  - name: frontofplayer
+    uniqueID: 2223329381
     locked: 0
