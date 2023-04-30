@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 public class finish : MonoBehaviour
 {
     private AudioSource finishsound;
+    private bool levelcompleted = false;
 
     void Start()
     {
@@ -14,17 +15,20 @@ public class finish : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.name == "Player")
-        {
-            finishsound.time = 0.5f;
+        if (collision.gameObject.name == "Player" && !levelcompleted) 
+        { 
+            finishsound.time = 0f;
             finishsound.Play();
             Invoke("CompleteLevel", 1f);
+            levelcompleted = true;
+
             
 
         }
     }
     private void CompleteLevel()
     {
+        //scenes are ordered in the build manager. Buildindex + 1 loads next scene (level)
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
