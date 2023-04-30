@@ -17,6 +17,7 @@ public class Playerlife : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        //check collision is with a hazard
         if (collision.gameObject.CompareTag("Hazards")) 
         { 
             Die();
@@ -30,6 +31,7 @@ public class Playerlife : MonoBehaviour
         deathsound.Play();
     }
 
+    //Restartlevel() is called by the death animation, once the animation is finished, this module will run
     private void RestartLevel()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);

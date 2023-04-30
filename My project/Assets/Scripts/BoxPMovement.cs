@@ -8,7 +8,6 @@ public class BoxPMovement : MonoBehaviour
     private Rigidbody2D rb;
     private BoxCollider2D coll;
     private Animator anim;
-    private float dirX = 0;
     private Transform sprite;
     [SerializeField] private float movespeed = 25f;
     [SerializeField] private float jumpforce = 25;
@@ -17,11 +16,9 @@ public class BoxPMovement : MonoBehaviour
     [SerializeField] private float sizex = 3;
     [SerializeField] private float sizey = 3;
 
-
+    //give the 4 states a numerical value (0,1,2,3) to be referenced later (i.e. IF value = 0, run)
     private enum movementState {runing, idle, falling, jumping}
     
-
-
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -30,26 +27,31 @@ public class BoxPMovement : MonoBehaviour
         sprite = GetComponent<Transform>();
         sprite.transform.localScale = new Vector2(sizex, sizey);
 
+
     }
 
     // Update is called once per frame
     private void Update()
     {
-        dirX = Input.GetAxis("Horizontal");
+        float dirX = Input.GetAxis("Horizontal");
         rb.velocity = new Vector2(dirX * movespeed, rb.velocity.y);
+        //move player left/right according to 'movespeed'
 
-        UpdateAnimation();
+        UpdateAnimation(); 
 
-        if(Input.GetButtonDown("Jump") && IsGrounded())
+        if (Input.GetButtonDown("Jump") && IsGrounded())
         {
             jumpsound.time = 0f;
             jumpsound.Play();
             rb.velocity = new Vector2(0, jumpforce);
+            //override current y velocity according to the defined jumpforce
         }
     }
 
     private void UpdateAnimation()
     {
+        //update 'state' according to relevant conditions, these states will be be called by the animator later.
+        float dirX = Input.GetAxis("Horizontal");
         movementState state;
         if (dirX > 0f)
         {
@@ -81,6 +83,7 @@ public class BoxPMovement : MonoBehaviour
     }
     private bool IsGrounded()
     {
+        //check if player is touching a material before confirmation of jump action
         return Physics2D.BoxCast(coll.bounds.center, coll.bounds.size, 0f, Vector2.down, .1f, jumpableGround);       
 
     }
