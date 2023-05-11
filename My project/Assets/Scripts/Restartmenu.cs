@@ -5,7 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class Restartmenu : MonoBehaviour
 {
-    [SerializeField] private int waitingtime = 1;
 
     //will be called by the button
 

@@ -8,6 +8,8 @@ public class finish : MonoBehaviour
 {
     private AudioSource finishsound;
     private bool levelcompleted = false;
+    public Animator transition;
+    [SerializeField] public float time = 0.5f;
 
     void Start()
     {
@@ -26,8 +28,10 @@ public class finish : MonoBehaviour
 
         }
     }
-    private void CompleteLevel()
+    public void CompleteLevel()
     {
+        //play animation
+        //transition.SetTrigger("Start");
         //scenes are ordered in the build manager. Buildindex + 1 loads next scene (level)
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
