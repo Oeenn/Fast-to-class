@@ -1,0 +1,6911 @@
+fileFormatVersion: 2
+guid: eacc7ab2570a84f40931c661716fdc6a
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 0
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FTC doors_0
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 2011
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a570e261cd4900844bcfb5b9e945aa62
+      internalID: 1094310084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_1
+      rect:
+        serializedVersion: 2
+        x: 4864
+        y: 2011
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfb3cef5e48cb1741b262be18be1c4de
+      internalID: 62030570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_2
+      rect:
+        serializedVersion: 2
+        x: 4928
+        y: 2011
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c97ca5940a890ab4f936a0f6a7e23aa8
+      internalID: 840669085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_3
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 1947
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 380719a6a8b4cd24eabd5502e16da3f8
+      internalID: -1313753307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_4
+      rect:
+        serializedVersion: 2
+        x: 4864
+        y: 1947
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c364684d4b92ac3498a71a021f4e7022
+      internalID: 1704987116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_5
+      rect:
+        serializedVersion: 2
+        x: 4928
+        y: 1947
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc6ad509129d0fc499c5a254f24d1281
+      internalID: 1078401128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_6
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 1883
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8ee8a501c882b647adeb98b6c22299c
+      internalID: 1256708160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_7
+      rect:
+        serializedVersion: 2
+        x: 4864
+        y: 1883
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c160ef973081d4f40a3422910378dd08
+      internalID: 918477335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_8
+      rect:
+        serializedVersion: 2
+        x: 4928
+        y: 1883
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ac2cf44086542e42b64ec5ddc19d79b
+      internalID: -1188790887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_9
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 1819
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59dfd02a8acb2c74d9ed0823cc707a9f
+      internalID: -2068096556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_10
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 1819
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59f67a48b5af7a64e97e48d27488adad
+      internalID: 1029179371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_11
+      rect:
+        serializedVersion: 2
+        x: 2624
+        y: 1819
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf49163e60d8aeb4688cd9f1bc9ab858
+      internalID: -1690602945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_12
+      rect:
+        serializedVersion: 2
+        x: 3264
+        y: 1819
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0842633b02933d64aa45fa3d4e60c0b7
+      internalID: -1557773338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_13
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 1819
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e33ac64b4c8f9ce44b5b68a0de8bc4ec
+      internalID: 1660570523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_14
+      rect:
+        serializedVersion: 2
+        x: 3392
+        y: 1819
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63e125e0489201b45b3fafcc255dcfa0
+      internalID: 1318548809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_15
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 1819
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a1db699141fb7a4d82d4171bda772f6
+      internalID: 528784358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_16
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 1755
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e629a6c1b780f6e4bb7f610b68df0a27
+      internalID: 773616652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_17
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 1755
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3304e0adb9e02694cbe15962cdd5d871
+      internalID: -1998139908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_18
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1755
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7bbca1501f1a914dbee2b107d82e926
+      internalID: 15948848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_19
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 1755
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e39bea82c87a2b42a1d11b73d2bb701
+      internalID: -425392748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_20
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1755
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc6abbcedae84ae48b854d693451c47b
+      internalID: -102993534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_21
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1755
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a7fb7ae818830a4b9767fe7af6a5e65
+      internalID: 5188065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_22
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 1755
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a651c614298ed594886fe2fbbb6746f7
+      internalID: 1802947299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_23
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 1755
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36d3790b7472cdf47abc68ddd4aec32a
+      internalID: 1944598262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_24
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1755
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da385010e8e9c32438320afb78df9fb8
+      internalID: 88741567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_25
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 1755
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ef6f62dffa1cdf45bdf09037967e13e
+      internalID: 439167808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_26
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1755
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6c8ceeaa8693cc4b9d828d59d380cb3
+      internalID: -1672849365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_27
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 1755
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 993e2919c29a41e4c8d2ed93da35e62a
+      internalID: 2055756712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_28
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 1755
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20ec46299d90eb8418292bd76b02b2fc
+      internalID: 1653825560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_29
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 1755
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ef267fe2a34a3e44994d56d8219bc75
+      internalID: -1647458850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_30
+      rect:
+        serializedVersion: 2
+        x: 2496
+        y: 1755
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa91dedafac5a344bbe7bf8dfe274dec
+      internalID: -1800452475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_31
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 1755
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c5076d91bfd6d547b2a9c22ce98fc7a
+      internalID: -1488537106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_32
+      rect:
+        serializedVersion: 2
+        x: 2624
+        y: 1755
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b481f23cae94f7a469dd950b5aced0b4
+      internalID: -238355154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_33
+      rect:
+        serializedVersion: 2
+        x: 3136
+        y: 1755
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a9ba064e3d285341bbae665c9659d59
+      internalID: 580533018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_34
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 1755
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c37ecf064aa168846b949a0b6eb4c17f
+      internalID: -1116438336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_35
+      rect:
+        serializedVersion: 2
+        x: 3264
+        y: 1755
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77405915a7e031943bfafdd51aace1b4
+      internalID: -199123177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_36
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 1755
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7129b74c5b263db4f83466941b46544d
+      internalID: -416214204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_37
+      rect:
+        serializedVersion: 2
+        x: 3392
+        y: 1755
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93a01efcb156f8c42ae082884401d7fe
+      internalID: 756144048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_38
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 1755
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73a9e62caf904234186b67f5bc08bd86
+      internalID: 744180743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_39
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 1691
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c0f6d6b63500054fbb6985adaa53f58
+      internalID: -108036791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_40
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1691
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 462d8b5c1d507e94cb3f4b53c8c96cae
+      internalID: 1646552085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_41
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 1691
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80b8f9004b258e54a90f9e7ce930d755
+      internalID: -2029269088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_42
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1691
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50c84d9db419b61458eaa38cd83ba8f0
+      internalID: 1972073686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_43
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 1691
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea62beb8ee05af448a473a28700aadef
+      internalID: 1429392055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_44
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1691
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02daa62e600d24c4f9259c17d202be5a
+      internalID: 550179472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_45
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1691
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b17fe79617a2aaf44bf50480c900dd49
+      internalID: 475788134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_46
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 1691
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f9ea4967478bfb4ea47c10171f72205
+      internalID: 1199348859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_47
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 1691
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1f756f9b1ca9d444b77ea7031b2c431
+      internalID: -1165457857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_48
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1691
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20951bd2e159592428c60501c89b58b9
+      internalID: -1564333902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_49
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 1691
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4874fa3c9b9538e4c98706a2df5543e0
+      internalID: 464103244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_50
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1691
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f6f452899dd1664f8f7754574237953
+      internalID: -1480028570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_51
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 1691
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20fa26e6f953f674e930a45ffbfeaabb
+      internalID: 1633208428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_52
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 1691
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a260dffd1e43d9045976a3cbcf63afeb
+      internalID: -926281802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_53
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 1691
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd9e836f42dbd104bba6d14141188852
+      internalID: 753303012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_54
+      rect:
+        serializedVersion: 2
+        x: 2496
+        y: 1691
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b65901e5c72801e4cb92d6b3197fc793
+      internalID: -364397090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_55
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 1691
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95352e2d0d6c21346b4222a1ace897c9
+      internalID: 1408499185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_56
+      rect:
+        serializedVersion: 2
+        x: 2624
+        y: 1691
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16ca0b74767ec3e4096fefd03f89006e
+      internalID: -675528423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_57
+      rect:
+        serializedVersion: 2
+        x: 2944
+        y: 1691
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f44c80d07cc826459ca0ed6c15dd63f
+      internalID: -1343527004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_58
+      rect:
+        serializedVersion: 2
+        x: 3008
+        y: 1691
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f158c93e134366f4188dc4e1e79691c2
+      internalID: -770208511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_59
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 1691
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3057ac24b55cdf04bb092a3b0745a9f5
+      internalID: -424070405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_60
+      rect:
+        serializedVersion: 2
+        x: 3136
+        y: 1691
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec7e81983cdc4a04b9cdc774cc58e70c
+      internalID: 853701102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_61
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 1691
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a4b2d04bafbc3b448e6c54330e0e72d
+      internalID: 642416484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_62
+      rect:
+        serializedVersion: 2
+        x: 3264
+        y: 1691
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aebf34804dfe60f419cacae67ccd55e6
+      internalID: 936865060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_63
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 1691
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e7b7aa181440dc42bf0ef454c16c5d7
+      internalID: 145666924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_64
+      rect:
+        serializedVersion: 2
+        x: 3392
+        y: 1691
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0a75210d19ad7d4bb8f9f88d3829e32
+      internalID: 90432565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_65
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 1691
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8364d0ed1f4ccf2459525f962e4365b8
+      internalID: 252479202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_66
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1627
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68d12b76ea583b54fa8a1f93e2f5b82e
+      internalID: 840766637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_67
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 1627
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97dc78c4fe6f0484c8cdc232bb7757b7
+      internalID: 287231821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_68
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1627
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52e9ad4b09a2ba544ad0c45e532c1680
+      internalID: 387643376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_69
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1627
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7b38abe23641ec419d1a96bfcee621d
+      internalID: -880317911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_70
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 1627
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b161ff257b26064fb24d41d47c16f08
+      internalID: -1807998396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_71
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1627
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fd58a58f941c8943a1e30b2c61f91ba
+      internalID: -467579988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_72
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 1627
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef96c42d080131f42af30b7d2a286dde
+      internalID: 1461488318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_73
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1627
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ff8722aae0a752448b5cb446423a480
+      internalID: 1847329821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_74
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1627
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00a91e6a8068454478280f33d9627852
+      internalID: -1501611458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_75
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 1627
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca6a066a899727145a6d150dfd266df9
+      internalID: -892666910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_76
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1627
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21bdeb72b2090e04bb560a83779861a9
+      internalID: -768865271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_77
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 1627
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c25614352b69cd043a33522b0651c570
+      internalID: -393088399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_78
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1627
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a5b165e09da6cb45b1ac9fdda993452
+      internalID: 1242916241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_79
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 1627
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 107f6acc7c078f6478e378466292077a
+      internalID: 1121239591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_80
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1627
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 785a3b8d3f742f14dbf2894894202fa3
+      internalID: -1973328264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_81
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 1627
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9de9c13924dffd74db4564fe3c5febfb
+      internalID: 1380479021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_82
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 1627
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43d36b9d3e43c6d42b4e631ecda12510
+      internalID: -117540919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_83
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 1627
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d9052872c1b6084b8fa2bdbecfbd83a
+      internalID: 1240829007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_84
+      rect:
+        serializedVersion: 2
+        x: 2496
+        y: 1627
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09d92c83aebd00144b250fc194968fdc
+      internalID: 1372826951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_85
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 1627
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95a9f85616f63194896966d052904081
+      internalID: 2031002681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_86
+      rect:
+        serializedVersion: 2
+        x: 2624
+        y: 1627
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b61675a37b9568459c2fd00bc7aa550
+      internalID: -1238191685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_87
+      rect:
+        serializedVersion: 2
+        x: 2752
+        y: 1627
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6882ec310dc04b4449e9274e1ba1fd13
+      internalID: -1485649829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_88
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 1627
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 944a8875be6c0764193f5870f2ccdeb9
+      internalID: 233579844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_89
+      rect:
+        serializedVersion: 2
+        x: 2944
+        y: 1627
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7001d253445e0b64781877b27e3e0aac
+      internalID: 730252515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_90
+      rect:
+        serializedVersion: 2
+        x: 3008
+        y: 1627
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b60089e635ac0dc468d165f4f9e64bad
+      internalID: -1528807395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_91
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 1627
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6dd00a89fa996645b40aafd4ed6a81e
+      internalID: 1846951942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_92
+      rect:
+        serializedVersion: 2
+        x: 3136
+        y: 1627
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0669a61b2ac83cd4c82c5d6ba73fdb1e
+      internalID: -1041288540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_93
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 1627
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e7be1ddf386e54498d4fe89af609263
+      internalID: 18899861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_94
+      rect:
+        serializedVersion: 2
+        x: 3264
+        y: 1627
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fc503d8f39b96740811a0b16880e71e
+      internalID: -1982828332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_95
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 1627
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d638e630dcd02a4c81ed6557ffd0115
+      internalID: 1572562080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_96
+      rect:
+        serializedVersion: 2
+        x: 3392
+        y: 1627
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7667b1a8249a2ed4abe90e23bd4110ec
+      internalID: 234707528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_97
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 1627
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecee2465f0d1f0d4495ba31ac4e6b480
+      internalID: 866011057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_98
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1563
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22e4e4b948fa57343819fb6de3a2829c
+      internalID: 1979074015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_99
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1563
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db92ff7cbdf96d843baa0a28e8f280a3
+      internalID: -1795935653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_100
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1563
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6d67edaff6bd8d4098105dec625a775
+      internalID: -820873107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_101
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1563
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0b84d80ac5acbd4f93c17c3147d21d1
+      internalID: 130618787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_102
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1563
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 343529388626ee44ab77d8aa78ea9c82
+      internalID: -1642320094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_103
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 1563
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45dfb4e9183f4b549960a102d46f9ecf
+      internalID: 342109813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_104
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1563
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ad6b9f928dad3e46a5ec5c76642a782
+      internalID: 1061619326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_105
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 1563
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91f0b12369a0c0244a0f947f661487d0
+      internalID: 1245210897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_106
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1563
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82c4989d89e0e7c49a72da3c9ec25fc5
+      internalID: -1352705332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_107
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 1563
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9d98df3f39d3ac43b4a8b5d74be4a80
+      internalID: 2049785269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_108
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1563
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36b56c546c7c5ad458b37a5539aab4c0
+      internalID: -1966587589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_109
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1563
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecd442e0d678ee14fb41e8ad4b35b821
+      internalID: -624582828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_110
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 1563
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 615b485c62058b44aa0cf71d659d0752
+      internalID: 1539641500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_111
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1563
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da35440dc9dc5f54eb6a2cf360fc74bf
+      internalID: 420753317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_112
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 1563
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0937fe8f595865c4b957adbb46c4324e
+      internalID: -593359562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_113
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1563
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b58cc24c6b48dc49b120a315f15d665
+      internalID: 1176238814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_114
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 1563
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c530e050763de348a7d69b2290c00a6
+      internalID: -693690617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_115
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1563
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca44c9a67d854054bb356800de772185
+      internalID: -719112791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_116
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 1563
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5242dbebc66b5e64fbc885520bd1ecf6
+      internalID: -1397529042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_117
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 1563
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0df03bdd29742ab4e8ff788f79c9295c
+      internalID: -565378285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_118
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 1563
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3434ab1738e8dc948922ba71e452b009
+      internalID: -416720046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_119
+      rect:
+        serializedVersion: 2
+        x: 2496
+        y: 1563
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ab642de28694dd42b65c531bdced041
+      internalID: -1945110202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_120
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 1563
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb40fe5fc53d35142ba066ccd9382e61
+      internalID: 897698205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_121
+      rect:
+        serializedVersion: 2
+        x: 2624
+        y: 1563
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 798b6b1e3930f9a4dbcb9af63970c8a8
+      internalID: 1386989234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_122
+      rect:
+        serializedVersion: 2
+        x: 2752
+        y: 1563
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 843da2b3a38ed6c4188ebec945f3dcf2
+      internalID: -1407917253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_123
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 1563
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fdeb366fc6fdc84c8a2591166d34ab2
+      internalID: -379524131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_124
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 1563
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7e57baae42566740a7d3617279a53fc
+      internalID: -122258691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_125
+      rect:
+        serializedVersion: 2
+        x: 2944
+        y: 1563
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d1eb202a10ed9c42acdd3048d405c54
+      internalID: -1329823968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_126
+      rect:
+        serializedVersion: 2
+        x: 3008
+        y: 1563
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ade7d662e0681144394f92f935497a01
+      internalID: 1732638752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_127
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 1563
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b58973b85acd9344b73bc1783da435f
+      internalID: 820445980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_128
+      rect:
+        serializedVersion: 2
+        x: 3136
+        y: 1563
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9994a2b2fe188d43b985f81cdc63e90
+      internalID: -1916971568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_129
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 1563
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53be79137c559694fbac062ea2744638
+      internalID: -572474009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_130
+      rect:
+        serializedVersion: 2
+        x: 3264
+        y: 1563
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fbbba08fc7236c44974c610b9113d6c
+      internalID: 1201011323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_131
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 1435
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0009db34724de846b7aae6a51d7479b
+      internalID: 2006544342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_132
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1435
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df3526295c94b46439f324cef5b0b0b6
+      internalID: 965238700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_133
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 1435
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36f1eb8d38bea1e44a33754f44814872
+      internalID: 1813106964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_134
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1435
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcf79abccffbf2e408571cc804a4c837
+      internalID: 1457844765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_135
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 1435
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4097591df693fed4a993654c51dd17dd
+      internalID: -1824351916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_136
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 1435
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4404a2ebb988434d9fc571d8c8241f8
+      internalID: -929624660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_137
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1435
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0a928ff5d6d5514db1bf24462077cde
+      internalID: 1713514593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_138
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 1435
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49bafb657ce0cb1419f7bf33c2c16222
+      internalID: 1133500626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_139
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1435
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5399700c084a54249be2ecc491337b0a
+      internalID: 1558198765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_140
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 1435
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 500515c3d2955ee48aa3820ed94b8129
+      internalID: -1741147175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_141
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1435
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36ad628b05d393e4e937858972e23fdd
+      internalID: 2000166358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_142
+      rect:
+        serializedVersion: 2
+        x: 2112
+        y: 1435
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 087abd458dd1b1a489c1ba4bfe94f387
+      internalID: 1071491727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_143
+      rect:
+        serializedVersion: 2
+        x: 2624
+        y: 1435
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b409b26de14d029408dad05b7dea5114
+      internalID: -20962770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_144
+      rect:
+        serializedVersion: 2
+        x: 2624
+        y: 1371
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dfc11eb0cb24044e988a654597f7c7a
+      internalID: 1983343159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_145
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 1307
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1627acce349f3504093e501421ccc31e
+      internalID: 1563007516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_146
+      rect:
+        serializedVersion: 2
+        x: 2624
+        y: 1307
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c83e3e99d7c2d247a6c3af320d1a2f8
+      internalID: 1744448721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_147
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 1243
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f253d0e1b69b8f4b98c46ac769f0685
+      internalID: 1070068924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_148
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 1243
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2345e752905b43546bfac124840cd303
+      internalID: 173969557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_149
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1243
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca41bb8f8bdd6ff4d90c0a4ed688cce9
+      internalID: 257546104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_150
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 1243
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e050708eedd8854fbf60f734dd5194d
+      internalID: -999692140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_151
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1243
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ca7c1891e4218147abbad444490d4bf
+      internalID: -1213552043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_152
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1243
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be66a8fc3c853a447a1929d5c59d52f2
+      internalID: -1004321917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_153
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 1243
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8c25c53a298fa248a791c6c0c72c718
+      internalID: -902918690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_154
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1243
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0cc9d25173101142aef14ee160c1796
+      internalID: 460305769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_155
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 1243
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83e183da301b3354e89103d28deae73e
+      internalID: -777734779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_156
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 1243
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8351feadc2f1a144b85dbb28b8605af
+      internalID: 6492471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_157
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1243
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 861c83f6d48a54d4da31b53821275eb6
+      internalID: 1687684974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_158
+      rect:
+        serializedVersion: 2
+        x: 2624
+        y: 1243
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f46fbc8f9610d964993b87f580937a12
+      internalID: 1592980407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_159
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1179
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f4bc6f50c533b74b879f0f56775cddc
+      internalID: -1191207771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_160
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1179
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13006e7be7f826d429398126cfbed089
+      internalID: 784645965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_161
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1179
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 947eb98cb8bd6b54c8436c6566392cd9
+      internalID: -596766396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_162
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 1179
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea363908a8f6ee943a95a0e378e07a2a
+      internalID: -1945594428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_163
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 1179
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d23e08d747324146a08f1a57631f10d
+      internalID: -1012836502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_164
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1179
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ae35b0b0ee9f094a9197fcf132cae8d
+      internalID: -401945626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_165
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 1179
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3ac8764d45c8fc44915629d737803eb
+      internalID: -762227929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_166
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1179
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bcf52a082128f0489609edbc6fb6ad9
+      internalID: -1387463028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_167
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1179
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb17810ef74a49b419c2ffa1873a5cb8
+      internalID: -1717502683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_168
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 1179
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d4d8a7db07d9c347b10c2f0beaed431
+      internalID: -2016707446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_169
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1179
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc5d4d8a82cd9014d8ddb3d48a01b7f5
+      internalID: -1370209006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_170
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 1179
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1aac8fa4d3be6e4ca274d94ff34b4bb
+      internalID: -124934651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_171
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 1179
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea0b4a16bf0e2c74e88d644cc7191ed6
+      internalID: -1004892825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_172
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1179
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1df2a0b04e9aeb8408c2a634479c4668
+      internalID: -1666495851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_173
+      rect:
+        serializedVersion: 2
+        x: 2624
+        y: 1179
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43b8a66673631024dbf9af29965931a1
+      internalID: 55113899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_174
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1115
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f49661879a202944d867651f38c5ccc3
+      internalID: -442341408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_175
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1115
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24b109c839adaa24cacf1fb045eccf2d
+      internalID: 749546129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_176
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1115
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbad052b3dc8ec044a81a049bdce8616
+      internalID: -700985297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_177
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 1115
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69e5214361efb3143a44ced5a0ce96ac
+      internalID: 1739132485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_178
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1115
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9a5d00abcbab57409d98a1284961212
+      internalID: -63137753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_179
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 1115
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4079220f27d4d34f91d79622589c77f
+      internalID: 423931553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_180
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1115
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1189f0a066f03d4c97c439af7455389
+      internalID: 2031656112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_181
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 1115
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84f5f641aacad4648a7d233baecee154
+      internalID: 17295072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_182
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1115
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f22160fbe5b03cd41a1c9b10f247dd0a
+      internalID: 121444471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_183
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1115
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 307f99127d36fb04b9cb9388d3b48525
+      internalID: -1560995694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_184
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 1115
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0024d875ef544704984c5685eebca61f
+      internalID: 1525739469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_185
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1115
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 410e21c2f9876084bbecc64a9d85a33b
+      internalID: 1714780749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_186
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 1115
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98792d08579e19d40b6dfa51c5f18d89
+      internalID: 113977260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_187
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 1115
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0086df2f0339d8d4b96984d7c6f916d6
+      internalID: -1962557437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_188
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1115
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c348c3d822034cd4ea293667645aca4d
+      internalID: 692423646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_189
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1051
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6f2afa4560626b4fba0c2b9b672e9ff
+      internalID: -2073194894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_190
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1051
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd2ca24fa90b44941b3a3092bacac05a
+      internalID: 1252147048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_191
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1051
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd5c8d57c0844d84d9e4ffa73ee92845
+      internalID: 756194682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_192
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1051
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62494dc42c580dc47998bb2d056a2cea
+      internalID: -1481609857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_193
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1051
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e78e6753ea233904b9761c2b2b634e9c
+      internalID: 716527397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_194
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 1051
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1191b06e2623324418b61d389784c191
+      internalID: 1701319411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_195
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1051
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70ead1afa99a8bb4b847dac7d8498e0d
+      internalID: -1828101885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_196
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 1051
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ab76067b3575ec4faf438a9ac6b1d08
+      internalID: 1793582903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_197
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1051
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeb7d71083ea15d4baabf77ed6b1f22b
+      internalID: 1700104244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_198
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 1051
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b13730cddd8568440a03a24534e84c64
+      internalID: -1936826063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_199
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1051
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d614c40eed38a04ba838cb2305d57f9
+      internalID: -1265457033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_200
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1051
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeb5328162e3e1147b8478e4190fd5dd
+      internalID: 1097436170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_201
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 1051
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2c2e39058ccd914fa5d43a967c4a23c
+      internalID: 437301966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_202
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1051
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d2ccd77f2f0f6d4ba23e34aaf096619
+      internalID: -1896723654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_203
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 1051
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8186401bb5083845b46735140542715
+      internalID: 1662206228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_204
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 1051
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7af872372515257499b38dacd9fa7502
+      internalID: -1064568447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_205
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1051
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29278a4a2a5f238419ef57a06716eca1
+      internalID: -1659109741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_206
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 987
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e3c7f1dd80610241b04249ac7212a31
+      internalID: -352067349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_207
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 987
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9a285c9292fa144989204f1252358df
+      internalID: -973178266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_208
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 987
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c79101d7eac71a40939f34a8b95a11f
+      internalID: -1786579308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_209
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 987
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8dbe5f92e5aee34b881a7d3f4bf0c3d
+      internalID: 1514984992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_210
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 987
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cab7769a0d2ccf7439f5425eb3c03db1
+      internalID: 1232784280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_211
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 923
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06149ad9000d1304ca9a3d48ba03d266
+      internalID: -1459598857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_212
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 923
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe5ee8cf1ff291445b323bb3d30262cd
+      internalID: -890184018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_213
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 859
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86eabd0049ebfa34585e5e5db95080fc
+      internalID: -2101760882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_214
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 859
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb5ef026f9c4490498c14e5e795c177a
+      internalID: -1905399445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_215
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 859
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b654e28f4d8d93469637b91f1700a04
+      internalID: -1303866193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_216
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 859
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4f23fa75cb41454b86a58720c8375dc
+      internalID: 1402043137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_217
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 859
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f891abc85bbfc94408d60de58d9b0678
+      internalID: -791996226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_218
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 859
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96d70702acfd2624bb7b4d1bc1a07f29
+      internalID: -833285740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_219
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 859
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3e5537a8c00acb4fa359793d4cc15e8
+      internalID: -1821657511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_220
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 859
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81e842d6e666b1c4e8dea74a55159934
+      internalID: 1514621125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_221
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 859
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd029c444e423844a9ea0e8e8d8e36c7
+      internalID: 1225292985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_222
+      rect:
+        serializedVersion: 2
+        x: 2112
+        y: 859
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 750322aa2ee086a45841922ee6b07510
+      internalID: -1288494626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_223
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 859
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92e6f6f8a0a44354da182bb30535e3e1
+      internalID: 232561526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_224
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 859
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 646407066479e9b4fac34c9a6a28225f
+      internalID: -1247282435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_225
+      rect:
+        serializedVersion: 2
+        x: 2368
+        y: 859
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25b4747a5c6586249960efb759ceff3a
+      internalID: -153257625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_226
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 859
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c635ca6c1fcb5e740be419a22206b3dc
+      internalID: -234022681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_227
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 795
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a91566835e592eb479968f9d615e1b85
+      internalID: 2112928314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_228
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 795
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95418dd3058e1b84399cc0f5fac97d9c
+      internalID: 275636981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_229
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 795
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b4c71e3639610b458528ac0cbd8d5c6
+      internalID: 1140062921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_230
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 795
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ec99093d2e89634d9d9b927d05266c8
+      internalID: 1602545484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_231
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 795
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29ff8b964c26de745bd375bb4f902f6c
+      internalID: 1744515955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_232
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 795
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6079398d164742d40be7a818ee4a4fe5
+      internalID: 837245529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_233
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 795
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80940c84f74d0ad49aa15df85d9dfbd0
+      internalID: 1411088591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_234
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 795
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 152156e4bdd3095438edcc95252de5ba
+      internalID: 414672507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_235
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 795
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d475f111778f48a4fb5344f4ea328bd7
+      internalID: -252204341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_236
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 795
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dee238844cfb91548a4db491daaec1b8
+      internalID: 2079321824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_237
+      rect:
+        serializedVersion: 2
+        x: 2112
+        y: 795
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97770291609985a4a9ef754e74782da7
+      internalID: -17954178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_238
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 795
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f23680a0488ff5e4babcf2055d3af7f6
+      internalID: 2091443717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_239
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 795
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3660c781db56b9d4a994013ae3aad0e9
+      internalID: -368461450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_240
+      rect:
+        serializedVersion: 2
+        x: 2368
+        y: 795
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f29be623e3f91e4db2ae3cf4ec18eb1
+      internalID: -1974433643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_241
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 795
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe456a290161e3f4196ad785bfdfd2e5
+      internalID: 1876753845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_242
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 731
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44ca6775cd08392449de923cf8060499
+      internalID: 17560547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_243
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 731
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dbe89eb834e84445bab409ccfac8698
+      internalID: 135711535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_244
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 731
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed3e9114e60ea50409cb9c7189ffbb78
+      internalID: 1089219360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_245
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 731
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dccaffa50e6b9d143b08f90c500345e3
+      internalID: 917441675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_246
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 731
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 253d5c033e328b14faf1cba7cf64d057
+      internalID: 1314280878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_247
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 731
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25ed6c03f3a72644aab1dc878c6fb368
+      internalID: 1920398775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_248
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 731
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab55a95a9f658af459361f0611a64047
+      internalID: -1957769405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_249
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 731
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed8d80cf89a264548a7eeebe151243df
+      internalID: 291003207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_250
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 731
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e71e0e40dc4bf1341be31277d9f0c78e
+      internalID: 2107216795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_251
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 731
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 720d6e76628747c43a034af9353a73ff
+      internalID: 1975976321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_252
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 731
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a37311cd38fc3bf4ba7621338ceeddb8
+      internalID: -1553079466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_253
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 731
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a70d80f1f3daaa242851ad54d5f7a2e9
+      internalID: -1391785614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_254
+      rect:
+        serializedVersion: 2
+        x: 2112
+        y: 731
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 918afb7e3c7b7de4ba5cfb8bcfed1633
+      internalID: -367612707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_255
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 731
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8077752cab4555846b8edbcb84146db0
+      internalID: 2012208676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_256
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 731
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df7cbb011541050418055518263563f8
+      internalID: -1981475017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_257
+      rect:
+        serializedVersion: 2
+        x: 2368
+        y: 731
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0ea5bdd252a44748801514b85db6d89
+      internalID: -1561877979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_258
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 731
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4881e9de234e8744fae621a6ff7813c2
+      internalID: 190768274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_259
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 667
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20b75b05340de4341b7859f7d238d75f
+      internalID: -841454327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_260
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 667
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b67f5e0912506e44af39494f3fa8b61
+      internalID: 109506563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_261
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 667
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddb38e9e1539ce2478a3ef6244693046
+      internalID: 238283719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_262
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 667
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79e0251bdcb064049988e18aadeb018e
+      internalID: 2057865873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_263
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 667
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea2baf0f11226254ea84f38a62f0741f
+      internalID: 1048450071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_264
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 667
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb195366ceb869a4bbed37bd73f6c2af
+      internalID: 1556515112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_265
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 667
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d430d844b7a230f469190ba0401cb28c
+      internalID: -17377464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_266
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 667
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fc0d04786eb6cc4fb20b91a1bc2c490
+      internalID: 1459232796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_267
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 667
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d41fb02883b14047845fecd85644d64
+      internalID: 841113415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_268
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 667
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aae77609766b0bd4ea79c7848bf3368a
+      internalID: 310271067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_269
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 667
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b37d591e8b723548abe8630fe06a769
+      internalID: -1764802828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_270
+      rect:
+        serializedVersion: 2
+        x: 2112
+        y: 667
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22229b6016050f040b5c89805be7f233
+      internalID: -740414890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_271
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 667
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a9408bc6547fbb4ca27bb2a210d5a96
+      internalID: -166931984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_272
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 667
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2462ab1457025014884eb6d09be14558
+      internalID: 1635111766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_273
+      rect:
+        serializedVersion: 2
+        x: 2368
+        y: 667
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6d22a7098b116747bb509f1c40eb495
+      internalID: 936431325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_274
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 667
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c71769bfad061e4890060a4114f8643
+      internalID: -877924284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_275
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 539
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41e888af5ae1b8d49ac6e280f9ac5fe0
+      internalID: -522186581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_276
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 475
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 667db04258fa5684e89640fd2de321e3
+      internalID: -1670954625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_277
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 475
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa85cca679080d34abda67714a559fe1
+      internalID: 102582827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_278
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 475
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fc1d6cbbb177cc43bb7f71095e04da9
+      internalID: 2018938980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_279
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 475
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3250646dadca99049948fce1e5786ec9
+      internalID: 1877769790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_280
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 475
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d68e9c90666ae0647b4a25b6e7e0211d
+      internalID: -984386822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_281
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 475
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebfd90ad03092bf4383c9c09f65ab8f4
+      internalID: -947964010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_282
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 475
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa1197045139d0a458c3ba1627f0427d
+      internalID: -968671027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_283
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 411
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f43e78522f74b4a41a39dded958c6e74
+      internalID: 1560842165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_284
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 411
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e8932e3e62ec0440ad35115073d12eb
+      internalID: -607447442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_285
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 411
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eebba4f700fc654b9cecaebd2748af1
+      internalID: 675175543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_286
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 411
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1b5349a9af9a9a4bb67102e57e1b2d3
+      internalID: -730750073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_287
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 411
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c556ce517fd5b804ea3f9d8827791c51
+      internalID: 395899151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_288
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 411
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1824f80fb5645cc449c7ff6482a739d1
+      internalID: -1507712918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_289
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 411
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aea78e01008334438663f28696449de
+      internalID: 698115217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_290
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 411
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a6b9a594f4cf2f4b9470db0d9d2d52d
+      internalID: -266975724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_291
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 347
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f079b08d5309ff43b90233f0fc06a1e
+      internalID: 166860410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_292
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 347
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c536211767259d246a1c57532eef6016
+      internalID: -2000540218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_293
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 347
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7d9825499c7a6c4f816654e32d4b902
+      internalID: -136944145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_294
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 347
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63cc796755cfed34897c37248ea42775
+      internalID: 269834723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_295
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 347
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bc67cae22889cc4fb3c76730e7edbca
+      internalID: -237995518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_296
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 347
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0073fea9a3aca1d4cab7d0937a13083d
+      internalID: 1345370977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_297
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 347
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69a5e0640e4f1bc40ae05f9dd459c7ec
+      internalID: -395138237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_298
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 347
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd023424f641eed43a72a5809a5825bd
+      internalID: 1181631965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_299
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 347
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed3219df3a6a6bb489c0b02fb7557df4
+      internalID: 1631471518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_300
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 283
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d96cd80b511a91c4f9c0da4969a5fe6d
+      internalID: -1343851119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_301
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 283
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5029f89cc0fcd1243be45f929a9354ce
+      internalID: 759950651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_302
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 283
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 118ec68ce3df00947825aa1265b66aff
+      internalID: 1453624662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_303
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 283
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08e044b3c4684e1409aca8a1fa730fb7
+      internalID: 91826163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_304
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 283
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff1826ae8dac0c241888b70a8e8b6e8f
+      internalID: -1876315074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_305
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 283
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bff239c18d36ee64cb59df4e68e3c263
+      internalID: -1083699235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_306
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 283
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7ca3f8fc2a65804cbf5a91c3dc2a319
+      internalID: -2016137030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FTC doors_307
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 283
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21c485d7dde6e904f8dbad6f4162b425
+      internalID: 1091079392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      FTC doors_287: 395899151
+      FTC doors_303: 91826163
+      FTC doors_307: 1091079392
+      FTC doors_160: 784645965
+      FTC doors_158: 1592980407
+      FTC doors_38: 744180743
+      FTC doors_197: 1700104244
+      FTC doors_125: -1329823968
+      FTC doors_118: -416720046
+      FTC doors_18: 15948848
+      FTC doors_263: 1048450071
+      FTC doors_214: -1905399445
+      FTC doors_54: -364397090
+      FTC doors_213: -2101760882
+      FTC doors_100: -820873107
+      FTC doors_219: -1821657511
+      FTC doors_31: -1488537106
+      FTC doors_268: 310271067
+      FTC doors_169: -1370209006
+      FTC doors_34: -1116438336
+      FTC doors_153: -902918690
+      FTC doors_212: -890184018
+      FTC doors_167: -1717502683
+      FTC doors_211: -1459598857
+      FTC doors_175: 749546129
+      FTC doors_194: 1701319411
+      FTC doors_16: 773616652
+      FTC doors_81: 1380479021
+      FTC doors_182: 121444471
+      FTC doors_88: 233579844
+      FTC doors_244: 1089219360
+      FTC doors_161: -596766396
+      FTC doors_280: -984386822
+      FTC doors_178: -63137753
+      FTC doors_226: -234022681
+      FTC doors_251: 1975976321
+      FTC doors_69: -880317911
+      FTC doors_284: -607447442
+      FTC doors_234: 414672507
+      FTC doors_63: 145666924
+      FTC doors_109: -624582828
+      FTC doors_269: -1764802828
+      FTC doors_5: 1078401128
+      FTC doors_293: -136944145
+      FTC doors_285: 675175543
+      FTC doors_56: -675528423
+      FTC doors_22: 1802947299
+      FTC doors_245: 917441675
+      FTC doors_180: 2031656112
+      FTC doors_246: 1314280878
+      FTC doors_204: -1064568447
+      FTC doors_294: 269834723
+      FTC doors_19: -425392748
+      FTC doors_176: -700985297
+      FTC doors_227: 2112928314
+      FTC doors_253: -1391785614
+      FTC doors_13: 1660570523
+      FTC doors_23: 1944598262
+      FTC doors_221: 1225292985
+      FTC doors_51: 1633208428
+      FTC doors_44: 550179472
+      FTC doors_292: -2000540218
+      FTC doors_134: 1457844765
+      FTC doors_39: -108036791
+      FTC doors_42: 1972073686
+      FTC doors_120: 897698205
+      FTC doors_139: 1558198765
+      FTC doors_209: 1514984992
+      FTC doors_282: -968671027
+      FTC doors_73: 1847329821
+      FTC doors_28: 1653825560
+      FTC doors_2: 840669085
+      FTC doors_92: -1041288540
+      FTC doors_286: -730750073
+      FTC doors_277: 102582827
+      FTC doors_57: -1343527004
+      FTC doors_129: -572474009
+      FTC doors_189: -2073194894
+      FTC doors_216: 1402043137
+      FTC doors_187: -1962557437
+      FTC doors_0: 1094310084
+      FTC doors_236: 2079321824
+      FTC doors_174: -442341408
+      FTC doors_46: 1199348859
+      FTC doors_223: 232561526
+      FTC doors_188: 692423646
+      FTC doors_26: -1672849365
+      FTC doors_232: 837245529
+      FTC doors_235: -252204341
+      FTC doors_1: 62030570
+      FTC doors_295: -237995518
+      FTC doors_242: 17560547
+      FTC doors_15: 528784358
+      FTC doors_75: -892666910
+      FTC doors_296: 1345370977
+      FTC doors_306: -2016137030
+      FTC doors_279: 1877769790
+      FTC doors_48: -1564333902
+      FTC doors_58: -770208511
+      FTC doors_97: 866011057
+      FTC doors_166: -1387463028
+      FTC doors_145: 1563007516
+      FTC doors_255: 2012208676
+      FTC doors_70: -1807998396
+      FTC doors_6: 1256708160
+      FTC doors_111: 420753317
+      FTC doors_250: 2107216795
+      FTC doors_181: 17295072
+      FTC doors_248: -1957769405
+      FTC doors_273: 936431325
+      FTC doors_257: -1561877979
+      FTC doors_156: 6492471
+      FTC doors_300: -1343851119
+      FTC doors_66: 840766637
+      FTC doors_64: 90432565
+      FTC doors_239: -368461450
+      FTC doors_298: 1181631965
+      FTC doors_68: 387643376
+      FTC doors_261: 238283719
+      FTC doors_220: 1514621125
+      FTC doors_252: -1553079466
+      FTC doors_89: 730252515
+      FTC doors_151: -1213552043
+      FTC doors_291: 166860410
+      FTC doors_147: 1070068924
+      FTC doors_148: 173969557
+      FTC doors_21: 5188065
+      FTC doors_27: 2055756712
+      FTC doors_49: 464103244
+      FTC doors_132: 965238700
+      FTC doors_110: 1539641500
+      FTC doors_33: 580533018
+      FTC doors_222: -1288494626
+      FTC doors_230: 1602545484
+      FTC doors_267: 841113415
+      FTC doors_297: -395138237
+      FTC doors_67: 287231821
+      FTC doors_4: 1704987116
+      FTC doors_283: 1560842165
+      FTC doors_185: 1714780749
+      FTC doors_266: 1459232796
+      FTC doors_36: -416214204
+      FTC doors_50: -1480028570
+      FTC doors_65: 252479202
+      FTC doors_107: 2049785269
+      FTC doors_254: -367612707
+      FTC doors_140: -1741147175
+      FTC doors_157: 1687684974
+      FTC doors_191: 756194682
+      FTC doors_105: 1245210897
+      FTC doors_17: -1998139908
+      FTC doors_85: 2031002681
+      FTC doors_127: 820445980
+      FTC doors_240: -1974433643
+      FTC doors_265: -17377464
+      FTC doors_243: 135711535
+      FTC doors_264: 1556515112
+      FTC doors_79: 1121239591
+      FTC doors_102: -1642320094
+      FTC doors_262: 2057865873
+      FTC doors_117: -565378285
+      FTC doors_30: -1800452475
+      FTC doors_159: -1191207771
+      FTC doors_55: 1408499185
+      FTC doors_47: -1165457857
+      FTC doors_40: 1646552085
+      FTC doors_193: 716527397
+      FTC doors_146: 1744448721
+      FTC doors_233: 1411088591
+      FTC doors_35: -199123177
+      FTC doors_60: 853701102
+      FTC doors_133: 1813106964
+      FTC doors_224: -1247282435
+      FTC doors_12: -1557773338
+      FTC doors_206: -352067349
+      FTC doors_195: -1828101885
+      FTC doors_150: -999692140
+      FTC doors_96: 234707528
+      FTC doors_229: 1140062921
+      FTC doors_299: 1631471518
+      FTC doors_201: 437301966
+      FTC doors_290: -266975724
+      FTC doors_218: -833285740
+      FTC doors_126: 1732638752
+      FTC doors_137: 1713514593
+      FTC doors_86: -1238191685
+      FTC doors_196: 1793582903
+      FTC doors_43: 1429392055
+      FTC doors_112: -593359562
+      FTC doors_121: 1386989234
+      FTC doors_77: -393088399
+      FTC doors_270: -740414890
+      FTC doors_123: -379524131
+      FTC doors_11: -1690602945
+      FTC doors_93: 18899861
+      FTC doors_238: 2091443717
+      FTC doors_20: -102993534
+      FTC doors_29: -1647458850
+      FTC doors_113: 1176238814
+      FTC doors_205: -1659109741
+      FTC doors_3: -1313753307
+      FTC doors_90: -1528807395
+      FTC doors_94: -1982828332
+      FTC doors_155: -777734779
+      FTC doors_259: -841454327
+      FTC doors_14: 1318548809
+      FTC doors_108: -1966587589
+      FTC doors_78: 1242916241
+      FTC doors_192: -1481609857
+      FTC doors_217: -791996226
+      FTC doors_52: -926281802
+      FTC doors_210: 1232784280
+      FTC doors_172: -1666495851
+      FTC doors_53: 753303012
+      FTC doors_149: 257546104
+      FTC doors_249: 291003207
+      FTC doors_237: -17954178
+      FTC doors_276: -1670954625
+      FTC doors_74: -1501611458
+      FTC doors_128: -1916971568
+      FTC doors_305: -1083699235
+      FTC doors_164: -401945626
+      FTC doors_141: 2000166358
+      FTC doors_301: 759950651
+      FTC doors_45: 475788134
+      FTC doors_84: 1372826951
+      FTC doors_99: -1795935653
+      FTC doors_95: 1572562080
+      FTC doors_190: 1252147048
+      FTC doors_142: 1071491727
+      FTC doors_260: 109506563
+      FTC doors_119: -1945110202
+      FTC doors_168: -2016707446
+      FTC doors_186: 113977260
+      FTC doors_116: -1397529042
+      FTC doors_281: -947964010
+      FTC doors_8: -1188790887
+      FTC doors_82: -117540919
+      FTC doors_143: -20962770
+      FTC doors_37: 756144048
+      FTC doors_98: 1979074015
+      FTC doors_289: 698115217
+      FTC doors_171: -1004892825
+      FTC doors_83: 1240829007
+      FTC doors_135: -1824351916
+      FTC doors_163: -1012836502
+      FTC doors_154: 460305769
+      FTC doors_304: -1876315074
+      FTC doors_32: -238355154
+      FTC doors_103: 342109813
+      FTC doors_80: -1973328264
+      FTC doors_144: 1983343159
+      FTC doors_275: -522186581
+      FTC doors_247: 1920398775
+      FTC doors_104: 1061619326
+      FTC doors_130: 1201011323
+      FTC doors_136: -929624660
+      FTC doors_258: 190768274
+      FTC doors_87: -1485649829
+      FTC doors_177: 1739132485
+      FTC doors_225: -153257625
+      FTC doors_124: -122258691
+      FTC doors_138: 1133500626
+      FTC doors_25: 439167808
+      FTC doors_173: 55113899
+      FTC doors_162: -1945594428
+      FTC doors_200: 1097436170
+      FTC doors_131: 2006544342
+      FTC doors_302: 1453624662
+      FTC doors_199: -1265457033
+      FTC doors_271: -166931984
+      FTC doors_72: 1461488318
+      FTC doors_202: -1896723654
+      FTC doors_59: -424070405
+      FTC doors_91: 1846951942
+      FTC doors_24: 88741567
+      FTC doors_71: -467579988
+      FTC doors_228: 275636981
+      FTC doors_76: -768865271
+      FTC doors_170: -124934651
+      FTC doors_184: 1525739469
+      FTC doors_122: -1407917253
+      FTC doors_241: 1876753845
+      FTC doors_207: -973178266
+      FTC doors_231: 1744515955
+      FTC doors_272: 1635111766
+      FTC doors_9: -2068096556
+      FTC doors_114: -693690617
+      FTC doors_208: -1786579308
+      FTC doors_274: -877924284
+      FTC doors_101: 130618787
+      FTC doors_215: -1303866193
+      FTC doors_278: 2018938980
+      FTC doors_198: -1936826063
+      FTC doors_256: -1981475017
+      FTC doors_288: -1507712918
+      FTC doors_62: 936865060
+      FTC doors_41: -2029269088
+      FTC doors_10: 1029179371
+      FTC doors_165: -762227929
+      FTC doors_106: -1352705332
+      FTC doors_7: 918477335
+      FTC doors_115: -719112791
+      FTC doors_203: 1662206228
+      FTC doors_183: -1560995694
+      FTC doors_152: -1004321917
+      FTC doors_179: 423931553
+      FTC doors_61: 642416484
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

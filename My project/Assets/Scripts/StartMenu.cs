@@ -6,8 +6,12 @@ using UnityEngine.SceneManagement;
 public class StartMenu : MonoBehaviour
 {
     [SerializeField] private int waitingtime = 1;
-    //will be called by the button
 
+    //will be called by the button
+    public void Start()
+    {
+        finish_success.hide = false;
+    }
     public void Update()
     {
      
@@ -17,6 +21,7 @@ public class StartMenu : MonoBehaviour
     {
         plswait();
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        finish_success.COMPLETE = false;
     }
 
     IEnumerator plswait()
