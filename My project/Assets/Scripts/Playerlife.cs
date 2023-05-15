@@ -7,12 +7,17 @@ public class Playerlife : MonoBehaviour
 {
     private Rigidbody2D rb;
     private Animator anim;
-    [SerializeField] private AudioSource deathsound;
+    
+    public static bool death = false;
+    [SerializeField] AudioClip[] deathclips;
+    
+    AudioSource myaudioclip;
 
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+        myaudioclip = GetComponent<AudioSource>();
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -22,13 +27,17 @@ public class Playerlife : MonoBehaviour
         { 
             Die();
             
+            death = true;
         }
+       
     }
     private void Die()
     {
         rb.bodyType = RigidbodyType2D.Static;
         anim.SetTrigger("death");
-        deathsound.Play();
+        death = false;
+        AudioClip ded = deathclips[UnityEngine.Random.Range(0, deathclips.Length)];
+        myaudioclip.PlayOneShot(ded);
     }
 
     //Restartlevel() is called by the death animation, once the animation is finished, this module will run

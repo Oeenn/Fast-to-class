@@ -13,7 +13,7 @@ public class countdowntimer : MonoBehaviour
     public static bool timeup = false;
     [SerializeField] public Text CDtext;
     Scene scene1 = SceneManager.GetActiveScene();
-    
+   
 
 
     void Start()
@@ -21,7 +21,7 @@ public class countdowntimer : MonoBehaviour
 
         gameObject.SetActive(true);
         currentTime = startTime;
-
+        
     }
     void Update()
     {

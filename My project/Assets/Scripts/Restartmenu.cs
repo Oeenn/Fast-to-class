@@ -11,6 +11,10 @@ public class Restartmenu : MonoBehaviour
     public void RestartGame()
     {
         SceneManager.LoadScene(0);
+        finish_success.COMPLETE =false;
+        Audiocontrol.played = false;
+        countdowntimer.timeup = false;
+        Playerlife.death = false;
     }
 }
 

@@ -12,7 +12,9 @@ public class BoxPMovement : MonoBehaviour
     [SerializeField] private float movespeed = 25f;
     [SerializeField] private float jumpforce = 25;
     [SerializeField] public LayerMask jumpableGround;
-    [SerializeField] private AudioSource jumpsound;
+    [SerializeField] AudioClip[] jumpsounds;
+    AudioSource myaudioclip;
+    
     [SerializeField] private float sizex = 3;
     [SerializeField] private float sizey = 3;
 
@@ -25,6 +27,7 @@ public class BoxPMovement : MonoBehaviour
         coll = GetComponent<BoxCollider2D>();
         anim = GetComponent<Animator>();
         sprite = GetComponent<Transform>();
+        myaudioclip =GetComponent<AudioSource>();
         sprite.transform.localScale = new Vector2(sizex, sizey);
 
 
@@ -41,8 +44,8 @@ public class BoxPMovement : MonoBehaviour
 
         if (Input.GetButtonDown("Jump") && IsGrounded())
         {
-            jumpsound.time = 0f;
-            jumpsound.Play();
+            AudioClip jump = jumpsounds[UnityEngine.Random.Range(0, jumpsounds.Length)];
+            myaudioclip.PlayOneShot(jump);
             rb.velocity = new Vector2(0, jumpforce);
             //override current y velocity according to the defined jumpforce
         }
