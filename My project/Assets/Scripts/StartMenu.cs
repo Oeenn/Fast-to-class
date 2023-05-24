@@ -21,6 +21,10 @@ public class StartMenu : MonoBehaviour
         
     }
 
+    public void Tutorial()
+    {
+        SceneManager.LoadScene("tutorial");
+    }
     public void StartGame()
     {
         plswait();

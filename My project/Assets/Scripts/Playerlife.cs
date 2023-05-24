@@ -7,7 +7,7 @@ public class Playerlife : MonoBehaviour
 {
     private Rigidbody2D rb;
     private Animator anim;
-    
+    private BoxCollider2D coll;
     public static bool death = false;
     [SerializeField] AudioClip[] deathclips;
     
@@ -26,7 +26,7 @@ public class Playerlife : MonoBehaviour
         if (collision.gameObject.CompareTag("Hazards")) 
         { 
             Die();
-            
+            coll.isTrigger = true; 
             death = true;
         }
        
