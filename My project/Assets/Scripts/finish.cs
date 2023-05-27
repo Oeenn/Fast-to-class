@@ -8,7 +8,7 @@ public class finish : MonoBehaviour
 {
     private AudioSource finishsound;
     private bool levelcompleted = false;
-    public Animator transition;
+    //public Animator transition;
     [SerializeField] public float time = 0.5f;
 
     void Start()
