@@ -12,17 +12,20 @@ EditorBuildSettings:
     path: Assets/Levels/0.StartScreen.unity
     guid: 4019e7934ecf7454b92969fac255347c
   - enabled: 1
-    path: Assets/Levels/3. 4th Floor.unity
+    path: Assets/Levels/1 level.unity
     guid: 94c33b6a4d54da94c8db0c8469e82fdf
+  - enabled: 1
+    path: Assets/Levels/2 level.unity
+    guid: 5bb8fe036b92fc342b87fb41b93f79b7
+  - enabled: 1
+    path: Assets/Levels/3 level.unity
+    guid: 254048ab89573d046a07416b806396fc
   - enabled: 1
     path: Assets/Levels/failure.unity
     guid: a5ff2012b8c338b4c8343eaca1481c33
   - enabled: 1
     path: Assets/Levels/success.unity
     guid: eb7ab77ca16e940428162972a2f1feeb
-  - enabled: 0
-    path: Assets/Versions/FTCv2.unity
-    guid: 5a3936d257dacae47823798097ddbcdc
   - enabled: 1
     path: Assets/Levels/tutorial.unity
     guid: 4a43b9d7b5aeba343b1f9fce4b212139

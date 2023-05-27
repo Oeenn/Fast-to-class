@@ -24,7 +24,7 @@ public class waypointfollower : MonoBehaviour
     private void Update()
     {
         //if the distance between the object and the waypoint < 0.1f in the x-values
-        if (Vector2.Distance(waypoints[CurrentWaypointIndex].transform.position, transform.position) < 0.1f)
+        if (Vector2.Distance(waypoints[CurrentWaypointIndex].transform.position, transform.position) < 0.001f)
         {
             CurrentWaypointIndex++;
             if (CurrentWaypointIndex >= waypoints.Length)

@@ -38,6 +38,10 @@ public class countdowntimer : MonoBehaviour
             timeup = true;
             gameObject.SetActive(false);    
             SceneManager.LoadScene(0);
+            finish_success.COMPLETE = false;
+            Audiocontrol.played = false;
+            countdowntimer.timeup = false;
+            Playerlife.death = false;
         }
         //when time is up, take me to failure screen
         if (currentTime < 0)
