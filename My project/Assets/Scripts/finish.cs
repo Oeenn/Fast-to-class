@@ -6,26 +6,36 @@ using UnityEngine.SceneManagement;
 
 public class finish : MonoBehaviour
 {
-    private AudioSource finishsound;
+    
     private bool levelcompleted = false;
     //public Animator transition;
     [SerializeField] public float time = 0.5f;
+    
+    
+    public static int cliplength;
+    
 
+
+    private void Update()
+    {
+        
+    }
     void Start()
     {
-        finishsound = GetComponent<AudioSource>();
+        
+        Debug.Log(Audiocontrol.index);
+
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.name == "Player" && !levelcompleted) 
-        { 
-            finishsound.time = 0f;
-            finishsound.Play();
+        {
+            Audiocontrol.midgame = true;
             Invoke("CompleteLevel", 1f);
             levelcompleted = true;
-
             
-
+            Debug.Log(Audiocontrol.index);
+            
         }
     }
     public void CompleteLevel()

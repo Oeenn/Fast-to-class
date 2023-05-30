@@ -244,7 +244,7 @@ MonoBehaviour:
   m_BoneTransforms:
   - {fileID: 2392433961632519991}
   m_Bounds:
-    m_Center: {x: -0.257483, y: 0.20382035, z: 0}
+    m_Center: {x: -0.257483, y: 0.2038213, z: 0}
     m_Extent: {x: 0.23647504, y: 0.2970304, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
@@ -1431,7 +1431,7 @@ MonoBehaviour:
   m_BoneTransforms:
   - {fileID: 7989501266384150862}
   m_Bounds:
-    m_Center: {x: -0.11816925, y: 0.21466479, z: 0}
+    m_Center: {x: -0.11816734, y: 0.21466574, z: 0}
     m_Extent: {x: 0.30700293, y: 0.33641905, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
@@ -1986,7 +1986,7 @@ MonoBehaviour:
   m_BoneTransforms:
   - {fileID: 6363131633742022457}
   m_Bounds:
-    m_Center: {x: -0.16844961, y: 0.16242543, z: 0}
+    m_Center: {x: -0.16844961, y: 0.16242447, z: 0}
     m_Extent: {x: 0.11970052, y: 0.32097113, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
@@ -2695,7 +2695,7 @@ PolygonCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7519335892185987810}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -2713,11 +2713,12 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -0.1333557, y: 1.7506665}
-      - {x: -0.5433954, y: 1.1007254}
-      - {x: -0.50134337, y: 0.17391601}
-      - {x: 0.32, y: 0.17391601}
-      - {x: 0.3443219, y: 1.0864356}
+    - - {x: -0.020509332, y: 1.7803632}
+      - {x: -0.335198, y: 1.7119023}
+      - {x: -0.5463771, y: 1}
+      - {x: -0.54637706, y: 0.19181027}
+      - {x: 0.3180562, y: 0.1918103}
+      - {x: 0.3180562, y: 1}
 --- !u!61 &5265284129661183733
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2725,7 +2726,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7519335892185987810}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
