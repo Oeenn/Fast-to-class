@@ -15,6 +15,8 @@ public class Restartmenu : MonoBehaviour
         Audiocontrol.played = false;
         countdowntimer.timeup = false;
         Playerlife.death = false;
+        Audiocontrol.index = 0;
+        finish.progression = false;
     }
 }
 

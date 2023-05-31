@@ -1,16 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Audiocontrol : MonoBehaviour
 {
-    
+    //define all folders
     [SerializeField] AudioClip[] successsounds;
     [SerializeField] AudioClip[] pregameclip;
     [SerializeField] AudioClip[] failuresound;
     [SerializeField] AudioClip[] deathclips;
     [SerializeField] AudioClip[] finishsound;
-    public static int index = 0;
+    public static int index = 1;
 
 
     AudioSource myaudioclip;
@@ -25,9 +26,10 @@ public class Audiocontrol : MonoBehaviour
         
     }
 
-    // Update is called once per frame
+    
     void Update()
     {
+        // casewhere for different sounds, with bools to indicate that it has been played (and will not play continously)
         if ((finish_success.COMPLETE == true) && played == false)
         {
             playsuccess();
@@ -40,21 +42,17 @@ public class Audiocontrol : MonoBehaviour
             played = true;
         }
 
-        if (midgame == true)
+        if(finish.progression == true)
         {
             progress();
-            index = index + 1;
-            midgame = false;
+            index++;
+            finish.progression = false;
         }
-
-        if (index > finish.cliplength)
+        if (index > finishsound.Length)
         {
             index = 0;
         }
-        //if (Playerlife.death == true)
-        //{
-        //    deathsound();
-        //}
+        
 
         if (StartMenu.started == true)
         {
@@ -64,8 +62,9 @@ public class Audiocontrol : MonoBehaviour
 
         void progress()
         {
-            AudioClip progress = finishsound[index];
-            myaudioclip.PlayOneShot(progress);
+            AudioClip progression = finishsound[index-1];
+            myaudioclip.PlayOneShot(progression);
+            
         }
 
         void playsuccess()
@@ -85,10 +84,6 @@ public class Audiocontrol : MonoBehaviour
         }
 
         
-        //void deathsound()
-        //{
-        //    AudioClip death = deathclips[UnityEngine.Random.Range(0, deathclips.Length)];
-          //  myaudioclip.PlayOneShot(death);
-        //}
+       
     }
 }

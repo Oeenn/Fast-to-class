@@ -7,10 +7,10 @@ using UnityEngine.SceneManagement;
 public class finish : MonoBehaviour
 {
     
-    private bool levelcompleted = false;
+    public static bool progression = false;
     //public Animator transition;
     [SerializeField] public float time = 0.5f;
-    
+    private int count = 0;
     
     public static int cliplength;
     
@@ -28,13 +28,13 @@ public class finish : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.name == "Player" && !levelcompleted) 
+        if (collision.gameObject.name == "Player" && !progression && count == 0)
         {
-            Audiocontrol.midgame = true;
-            Invoke("CompleteLevel", 1f);
-            levelcompleted = true;
             
-            Debug.Log(Audiocontrol.index);
+            Invoke("CompleteLevel", 1f);
+            progression = true;
+            count = count + 1;
+            
             
         }
     }
@@ -44,6 +44,7 @@ public class finish : MonoBehaviour
         //transition.SetTrigger("Start");
         //scenes are ordered in the build manager. Buildindex + 1 loads next scene (level)
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        
     }
 
 }

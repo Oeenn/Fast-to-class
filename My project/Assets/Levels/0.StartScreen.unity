@@ -711,10 +711,6 @@ PrefabInstance:
       propertyPath: m_FontData.m_Alignment
       value: 3
       objectReference: {fileID: 0}
-    - target: {fileID: 3285776218475757901, guid: 90ec7b32305b9d843b4fab64cb9e35e0, type: 3}
-      propertyPath: startTime
-      value: 90
-      objectReference: {fileID: 0}
     - target: {fileID: 3285776218475757903, guid: 90ec7b32305b9d843b4fab64cb9e35e0, type: 3}
       propertyPath: m_SizeDelta.x
       value: 185
@@ -15226,6 +15222,23 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1 &2071793113 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 398537064780490456, guid: 90ec7b32305b9d843b4fab64cb9e35e0, type: 3}
+  m_PrefabInstance: {fileID: 290789524}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2071793117
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2071793113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0eb85ea9273fa624fa29b701fa345a5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1419907076099126915
 PrefabInstance:
   m_ObjectHideFlags: 0

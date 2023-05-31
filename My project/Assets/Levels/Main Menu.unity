@@ -1877,7 +1877,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7434881634829583618}
-  m_LocalRotation: {x: -2.9901716e-16, y: -1.3376252e-16, z: -0.80992365, w: 0.58653545}
+  m_LocalRotation: {x: -2.9901528e-16, y: -1.3376167e-16, z: -0.8099236, w: 0.58653533}
   m_LocalPosition: {x: 0.886154, y: -0.2896875, z: 2.6398409e-15}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -2184,7 +2184,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8926083569272987559}
-  m_LocalRotation: {x: 0, y: 0, z: 0.9427401, w: 0.3335284}
+  m_LocalRotation: {x: 0, y: 0, z: 0.94274014, w: 0.33352825}
   m_LocalPosition: {x: 0.8639172, y: 0.3529936, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -4147,7 +4147,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4786230862339652345}
-  m_LocalRotation: {x: -2.1653769e-14, y: -1.1289711e-14, z: 0.09979135, w: 0.99500847}
+  m_LocalRotation: {x: -2.1653777e-14, y: -1.1289715e-14, z: 0.099791355, w: 0.9950084}
   m_LocalPosition: {x: 0.443, y: 0.001, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -4259,7 +4259,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4786230862450343429}
-  m_LocalRotation: {x: -4.247593e-14, y: 1.1478774e-14, z: -0.12784937, w: 0.99179363}
+  m_LocalRotation: {x: -4.2475924e-14, y: 1.1478767e-14, z: -0.12784937, w: 0.99179363}
   m_LocalPosition: {x: 0.707, y: 0.022, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -4340,7 +4340,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4786230862776095870}
-  m_LocalRotation: {x: -0, y: -0, z: -0.0622122, w: 0.99806297}
+  m_LocalRotation: {x: -0, y: -0, z: -0.06221232, w: 0.99806297}
   m_LocalPosition: {x: 0.52, y: -0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -4451,7 +4451,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7401048771218936686}
-  m_LocalRotation: {x: -1.0933112e-15, y: -8.5873974e-16, z: -0.61800903, w: 0.7861711}
+  m_LocalRotation: {x: -1.0933083e-15, y: -8.587375e-16, z: -0.61800885, w: 0.7861712}
   m_LocalPosition: {x: 1.32958, y: 0.055413365, z: 8.101995e-15}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -4742,8 +4742,8 @@ MonoBehaviour:
   m_BoneTransforms:
   - {fileID: 6900426971554307735}
   m_Bounds:
-    m_Center: {x: -0.09875724, y: 0.16081345, z: 0}
-    m_Extent: {x: 0.47279742, y: 0.57515824, z: 0}
+    m_Center: {x: -0.09875721, y: 0.16081363, z: 0}
+    m_Extent: {x: 0.4727974, y: 0.5751581, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
   m_AutoRebind: 0
@@ -5002,8 +5002,8 @@ MonoBehaviour:
   m_BoneTransforms:
   - {fileID: 8475698520697267175}
   m_Bounds:
-    m_Center: {x: -0.1684489, y: 0.1624254, z: 0}
-    m_Extent: {x: 0.11970052, y: 0.32097113, z: 0}
+    m_Center: {x: -0.16844888, y: 0.16242564, z: 0}
+    m_Extent: {x: 0.11970051, y: 0.3209711, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
   m_AutoRebind: 0
@@ -5111,7 +5111,7 @@ MonoBehaviour:
   m_BoneTransforms:
   - {fileID: 4841846196342621584}
   m_Bounds:
-    m_Center: {x: -0.11816871, y: 0.21466693, z: 0}
+    m_Center: {x: -0.11816877, y: 0.21466696, z: 0}
     m_Extent: {x: 0.30700296, y: 0.3364191, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
@@ -5147,7 +5147,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6502596207201047725, guid: 6e57adb0c2dce60469be914f03274060, type: 3}
       propertyPath: finishsound.Array.size
-      value: 3
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 6502596207201047725, guid: 6e57adb0c2dce60469be914f03274060, type: 3}
       propertyPath: finishsound.Array.data[0]
@@ -5161,6 +5161,26 @@ PrefabInstance:
       propertyPath: finishsound.Array.data[2]
       value: 
       objectReference: {fileID: 8300000, guid: 3aa22d77d33dc954caad901bcd9b8821, type: 3}
+    - target: {fileID: 6502596207201047725, guid: 6e57adb0c2dce60469be914f03274060, type: 3}
+      propertyPath: finishsound.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 24efdf1d941638642b9b4550588b9a4c, type: 3}
+    - target: {fileID: 6502596207201047725, guid: 6e57adb0c2dce60469be914f03274060, type: 3}
+      propertyPath: finishsound.Array.data[4]
+      value: 
+      objectReference: {fileID: 8300000, guid: 8a9a96c8f8f9a3a48af50436ae856f8f, type: 3}
+    - target: {fileID: 6502596207201047725, guid: 6e57adb0c2dce60469be914f03274060, type: 3}
+      propertyPath: finishsound.Array.data[5]
+      value: 
+      objectReference: {fileID: 8300000, guid: 24efdf1d941638642b9b4550588b9a4c, type: 3}
+    - target: {fileID: 6502596207201047725, guid: 6e57adb0c2dce60469be914f03274060, type: 3}
+      propertyPath: finishsound.Array.data[6]
+      value: 
+      objectReference: {fileID: 8300000, guid: 3aa22d77d33dc954caad901bcd9b8821, type: 3}
+    - target: {fileID: 6502596207201047725, guid: 6e57adb0c2dce60469be914f03274060, type: 3}
+      propertyPath: finishsound.Array.data[7]
+      value: 
+      objectReference: {fileID: 8300000, guid: 8a9a96c8f8f9a3a48af50436ae856f8f, type: 3}
     - target: {fileID: 6502596207201047726, guid: 6e57adb0c2dce60469be914f03274060, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -5862,8 +5882,8 @@ MonoBehaviour:
   m_BoneTransforms:
   - {fileID: 928439056577573865}
   m_Bounds:
-    m_Center: {x: -0.25748354, y: 0.20381966, z: 0}
-    m_Extent: {x: 0.236475, y: 0.2970305, z: 0}
+    m_Center: {x: -0.2574834, y: 0.20381942, z: 0}
+    m_Extent: {x: 0.23647499, y: 0.29703057, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
   m_AutoRebind: 0
@@ -6160,8 +6180,8 @@ MonoBehaviour:
   m_BoneTransforms:
   - {fileID: 741471503932130136}
   m_Bounds:
-    m_Center: {x: 0.05341971, y: 0.36194915, z: 0}
-    m_Extent: {x: 0.29376262, y: 0.18469995, z: 0}
+    m_Center: {x: 0.05341962, y: 0.36194932, z: 0}
+    m_Extent: {x: 0.2937625, y: 0.18469988, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
   m_AutoRebind: 0

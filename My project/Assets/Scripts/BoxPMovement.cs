@@ -6,7 +6,7 @@ public class BoxPMovement : MonoBehaviour
 {
 
     private Rigidbody2D rb;
-    private Collider2D coll;
+    private BoxCollider2D coll;
     private Animator anim;
     private Transform sprite;
     [SerializeField] private float movespeed = 25f;
@@ -24,7 +24,7 @@ public class BoxPMovement : MonoBehaviour
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        coll = GetComponent<Collider2D>();
+        coll = GetComponent<BoxCollider2D>();
         anim = GetComponent<Animator>();
         sprite = GetComponent<Transform>();
         myaudioclip =GetComponent<AudioSource>();

@@ -8,7 +8,7 @@ using UnityEngine.SceneManagement;
 
 public class countdowntimer : MonoBehaviour
 {
-    float currentTime = 0;
+    public static float currentTime = 0;
     [SerializeField] float startTime = 60f;
     public static bool timeup = false;
     [SerializeField] public Text CDtext;
@@ -42,6 +42,8 @@ public class countdowntimer : MonoBehaviour
             Audiocontrol.played = false;
             countdowntimer.timeup = false;
             Playerlife.death = false;
+            Audiocontrol.index = 0;
+            finish.progression = false;
         }
         //when time is up, take me to failure screen
         if (currentTime < 0)

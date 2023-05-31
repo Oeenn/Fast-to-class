@@ -222,6 +222,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: progress
       objectReference: {fileID: 0}
+    - target: {fileID: 257957562330769393, guid: 19f68eedf6955e1408a8844fdf9a0611, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3082911239026529023, guid: 19f68eedf6955e1408a8844fdf9a0611, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5571591181491265318, guid: 19f68eedf6955e1408a8844fdf9a0611, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -264,6 +272,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5571591181491265318, guid: 19f68eedf6955e1408a8844fdf9a0611, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5773504643573756613, guid: 19f68eedf6955e1408a8844fdf9a0611, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -334,7 +346,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 527346406124746143, guid: b4edb45a06f059f4abcb9e41100c9bb2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -24.2
+      value: -24.568201
       objectReference: {fileID: 0}
     - target: {fileID: 527346406124746143, guid: b4edb45a06f059f4abcb9e41100c9bb2, type: 3}
       propertyPath: m_LocalPosition.y
@@ -14196,7 +14208,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1886298072604628619, guid: 62bc6c56d81b6d24c9e8623465b84c43, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -27.96922
+      value: -28.33742
       objectReference: {fileID: 0}
     - target: {fileID: 1886298072604628619, guid: 62bc6c56d81b6d24c9e8623465b84c43, type: 3}
       propertyPath: m_LocalPosition.y
@@ -43025,6 +43037,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 459763dc69a96ae478297cbecc30922a, type: 3}
+--- !u!82 &1885938514 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 1983296007611784396, guid: ef158d9ce80c41d44af708b89818fd50, type: 3}
+  m_PrefabInstance: {fileID: 1983296008243198189}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1893299451
 GameObject:
   m_ObjectHideFlags: 0
@@ -44434,7 +44451,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1886298072604628619, guid: 62bc6c56d81b6d24c9e8623465b84c43, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -23.1118
+      value: -23.48
       objectReference: {fileID: 0}
     - target: {fileID: 1886298072604628619, guid: 62bc6c56d81b6d24c9e8623465b84c43, type: 3}
       propertyPath: m_LocalPosition.y
@@ -44562,6 +44579,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Final_Success
       objectReference: {fileID: 0}
+    - target: {fileID: 1983296007611784435, guid: ef158d9ce80c41d44af708b89818fd50, type: 3}
+      propertyPath: finishsound
+      value: 
+      objectReference: {fileID: 1885938514}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef158d9ce80c41d44af708b89818fd50, type: 3}
 --- !u!1001 &3015879815862801280
