@@ -10,8 +10,9 @@ public class finish : MonoBehaviour
     public static bool progression = false;
     //public Animator transition;
     [SerializeField] public float time = 0.5f;
-    private int count = 0;
-    
+    public static int count = 0;
+    [SerializeField] public AudioSource tinkle;
+
     public static int cliplength;
     
 
@@ -22,8 +23,10 @@ public class finish : MonoBehaviour
     }
     void Start()
     {
-        
+        tinkle = GetComponent<AudioSource>();
+        progression = false;
         Debug.Log(Audiocontrol.index);
+        count = 0;
 
     }
     private void OnTriggerEnter2D(Collider2D collision)
@@ -34,7 +37,7 @@ public class finish : MonoBehaviour
             Invoke("CompleteLevel", 1f);
             progression = true;
             count = count + 1;
-            
+            tinkle.Play();
             
         }
     }

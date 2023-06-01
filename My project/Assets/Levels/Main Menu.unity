@@ -1404,8 +1404,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 454.82, y: 89.11}
+  m_AnchoredPosition: {x: 0.000000029802, y: 7.516}
+  m_SizeDelta: {x: 455.76, y: 104.143}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1493344722
 MonoBehaviour:
@@ -1440,8 +1440,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Hurry! You're late for software class! Make it all the way to the top in
-    1 minute or suffer the consequences...
+  m_Text: Hurry! You're late for software class! you have 100 seconds to get to the
+    top floor before the teacher marks you absent!
 --- !u!222 &1493344723
 CanvasRenderer:
   m_ObjectHideFlags: 0

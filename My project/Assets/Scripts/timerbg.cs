@@ -20,15 +20,16 @@ public class timerbg : MonoBehaviour
 
         }
 
-        if (countdowntimer.currentTime < 0)
+        if (countdowntimer.timeup == true)
         {
             gameObject.SetActive(false);
 
         }
         
+
         if (finish_success.hide == true)
         {
-            //gameObject.SetActive(false);
+            gameObject.SetActive(false);
             DestroyObject(gameObject);
         }
     }

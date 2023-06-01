@@ -25,7 +25,17 @@ public class Switch : MonoBehaviour
     {
         if (Input.GetButton("Cancel"))
         {
+            
+            gameObject.SetActive(false);
             SceneManager.LoadScene(0);
+            finish_success.COMPLETE = false;
+            Audiocontrol.played = false;
+            countdowntimer.timeup = false;
+            Playerlife.death = false;
+            Audiocontrol.index = 0;
+            finish.progression = false;
+            finish.count = 0;
+            
         }
         //if (index == 0) 
         {
