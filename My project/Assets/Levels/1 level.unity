@@ -4982,7 +4982,7 @@ SpriteRenderer:
   m_SortingLayerID: 730830587
   m_SortingLayer: 4
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 6535e775d7302454aaa41e27f160f9a9, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 1c85112ccfa67d1478f51ddc92323aed, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -9920,7 +9920,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 10
+  orthographic size: 15
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
@@ -13022,10 +13022,6 @@ PrefabInstance:
       propertyPath: m_Follow
       value: 
       objectReference: {fileID: 1017073881}
-    - target: {fileID: 1419907074551544251, guid: f7a88ce5db47b8f49b7b2bd03fd3c878, type: 3}
-      propertyPath: m_Lens.OrthographicSize
-      value: 10
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f7a88ce5db47b8f49b7b2bd03fd3c878, type: 3}
 --- !u!60 &1415955548 stripped
