@@ -10,11 +10,12 @@ public class Teachersize : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        //define teacher sprite size according to serialize field inputs
         sprite = GetComponent<Transform>();
         sprite.transform.localScale = new Vector2(sizex, sizey);
     }
 
-    // Update is called once per frame
+ 
     void Update()
     {
         

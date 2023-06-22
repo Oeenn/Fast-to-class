@@ -10,7 +10,6 @@ public class Playerlife : MonoBehaviour
     private BoxCollider2D coll;
     public static bool death = false;
     [SerializeField] AudioClip[] deathclips;
-    
     AudioSource myaudioclip;
 
     private void Start()

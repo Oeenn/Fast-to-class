@@ -3,8 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class BoxPMovement : MonoBehaviour
-{
-
+{ 
     private Rigidbody2D rb;
     private BoxCollider2D coll;
     private Animator anim;
@@ -14,7 +13,6 @@ public class BoxPMovement : MonoBehaviour
     [SerializeField] public LayerMask jumpableGround;
     [SerializeField] AudioClip[] jumpsounds;
     AudioSource myaudioclip;
-    
     [SerializeField] private float sizex = 3;
     [SerializeField] private float sizey = 3;
 
@@ -29,8 +27,6 @@ public class BoxPMovement : MonoBehaviour
         sprite = GetComponent<Transform>();
         myaudioclip =GetComponent<AudioSource>();
         sprite.transform.localScale = new Vector2(sizex, sizey);
-
-
     }
 
     // Update is called once per frame

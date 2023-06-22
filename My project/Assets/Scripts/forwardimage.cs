@@ -11,5 +11,4 @@ public class forwardimage : MonoBehaviour
         moveforward = true;
         moveforward = false;
     }
-
 }

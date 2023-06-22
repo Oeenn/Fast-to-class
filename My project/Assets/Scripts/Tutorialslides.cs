@@ -36,6 +36,7 @@ public class Tutorialslides : MonoBehaviour
    
     void Update()
     {
+        //move slides forward 
         if (forwardimage.moveforward == true)
         {
             currentImage++;

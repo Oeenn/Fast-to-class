@@ -30,7 +30,7 @@ public class waypointfollower : MonoBehaviour
             if (CurrentWaypointIndex >= waypoints.Length)
             {
                 CurrentWaypointIndex = 0;
-            }
+            } 
         }
  
         if (waypoints[CurrentWaypointIndex].transform.position.x > rb.position.x) 

@@ -14,9 +14,6 @@ public class finish : MonoBehaviour
     [SerializeField] public AudioSource tinkle;
 
     public static int cliplength;
-    
-
-
     private void Update()
     {
         
@@ -31,6 +28,7 @@ public class finish : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        //detect collison and go to next scene
         if (collision.gameObject.name == "Player" && !progression && count == 0)
         {
             
@@ -43,9 +41,7 @@ public class finish : MonoBehaviour
     }
     public void CompleteLevel()
     {
-        //play animation
-        //transition.SetTrigger("Start");
-        //scenes are ordered in the build manager. Buildindex + 1 loads next scene (level)
+        
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         
     }

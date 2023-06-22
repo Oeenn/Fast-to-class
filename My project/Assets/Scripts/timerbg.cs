@@ -4,15 +4,16 @@ using UnityEngine;
 
 public class timerbg : MonoBehaviour
 {
-    // Start is called before the first frame update
+   
     void Start()
     {
         gameObject.SetActive(true);
     }
 
-    // Update is called once per frame
+    
     void Update()
     {
+        //Show and hide the background image for the timer, using the same bool conditions as the timer
         if (Input.GetButton("Cancel"))
         {
 

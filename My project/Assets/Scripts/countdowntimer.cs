@@ -14,8 +14,6 @@ public class countdowntimer : MonoBehaviour
     [SerializeField] public Text CDtext;
     Scene scene1 = SceneManager.GetActiveScene();
    
-
-
     void Start()
     {
 
@@ -25,7 +23,6 @@ public class countdowntimer : MonoBehaviour
     }
     void Update()
     {
-
         //decrement if player has not completed 
         if ((finish_success.COMPLETE == false) && (timeup == false))
         {
@@ -33,6 +30,7 @@ public class countdowntimer : MonoBehaviour
             CDtext.text = currentTime.ToString("#.00");
         }    
         
+        //on 'esc,' reset variables
         if (Input.GetButton("Cancel"))
         {
             timeup = true;

@@ -7,7 +7,7 @@ public class Restartmenu : MonoBehaviour
 {
 
     //will be called by the button
-
+    //reset variables
     public void RestartGame()
     {
         SceneManager.LoadScene(0);

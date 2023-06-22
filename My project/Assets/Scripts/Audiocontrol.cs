@@ -53,7 +53,6 @@ public class Audiocontrol : MonoBehaviour
             index = 0;
         }
         
-
         if (StartMenu.started == true)
         {
             playpregame();
@@ -62,11 +61,9 @@ public class Audiocontrol : MonoBehaviour
 
         void progress()
         {
-            AudioClip progression = finishsound[index-1];
+            AudioClip progression = finishsound[index - 1];
             myaudioclip.PlayOneShot(progression);
-            
         }
-
         void playsuccess()
         {
             AudioClip success = successsounds[UnityEngine.Random.Range(0, successsounds.Length)];
