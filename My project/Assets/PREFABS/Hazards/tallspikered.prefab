@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1269102755628658461}
   - component: {fileID: 377024991890888217}
   - component: {fileID: 8880149351755435071}
+  - component: {fileID: 8656852053050391878}
   m_Layer: 0
   m_Name: tallspikered
   m_TagString: Hazards
@@ -93,7 +94,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 880592426631365044}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -133,3 +134,34 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!60 &8656852053050391878
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 880592426631365044}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 6.25, y: 6.25}
+    newSize: {x: 6.25, y: 6.25}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 1.872055, y: -1.872876}
+      - {x: 1.8745478, y: -1.6259983}
+      - {x: 0.12614179, y: 1.6326196}
+      - {x: -0.37000072, y: 1.630436}
+      - {x: -2.1258967, y: -1.6256474}
+      - {x: -2.1250021, y: -1.8759766}

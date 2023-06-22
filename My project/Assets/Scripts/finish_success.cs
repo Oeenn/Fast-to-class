@@ -17,6 +17,7 @@ public class finish_success : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        //detect collision and take to success screen
         if (collision.gameObject.name == "Player" && !levelcompleted) 
         { 
             finishsound.time = 0f;
@@ -24,10 +25,6 @@ public class finish_success : MonoBehaviour
             COMPLETE = true;
             Invoke("CompleteLevel", 1f);
             levelcompleted = true;
-            
-
-
-
         }
     }
     public void CompleteLevel()

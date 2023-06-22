@@ -8,14 +8,12 @@ using UnityEngine.SceneManagement;
 
 public class countdowntimer : MonoBehaviour
 {
-    float currentTime = 0;
+    public static float currentTime = 0;
     [SerializeField] float startTime = 60f;
     public static bool timeup = false;
     [SerializeField] public Text CDtext;
     Scene scene1 = SceneManager.GetActiveScene();
    
-
-
     void Start()
     {
 
@@ -25,7 +23,6 @@ public class countdowntimer : MonoBehaviour
     }
     void Update()
     {
-
         //decrement if player has not completed 
         if ((finish_success.COMPLETE == false) && (timeup == false))
         {
@@ -33,6 +30,7 @@ public class countdowntimer : MonoBehaviour
             CDtext.text = currentTime.ToString("#.00");
         }    
         
+        //on 'esc,' reset variables
         if (Input.GetButton("Cancel"))
         {
             timeup = true;
@@ -42,6 +40,8 @@ public class countdowntimer : MonoBehaviour
             Audiocontrol.played = false;
             countdowntimer.timeup = false;
             Playerlife.death = false;
+            Audiocontrol.index = 0;
+            finish.progression = false;
         }
         //when time is up, take me to failure screen
         if (currentTime < 0)

@@ -101,7 +101,7 @@ MonoBehaviour:
   m_BoneTransforms:
   - {fileID: 2319842618764107}
   m_Bounds:
-    m_Center: {x: 0.0000019073486, y: -0.0012387633, z: 0}
+    m_Center: {x: 0.0000009536743, y: -0.0012406707, z: 0}
     m_Extent: {x: 0.471875, y: 0.5643718, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
@@ -120,6 +120,7 @@ GameObject:
   - component: {fileID: 9030729439806716037}
   - component: {fileID: 1018835523557233079}
   - component: {fileID: 1509416770532935613}
+  - component: {fileID: 6081632265637806675}
   m_Layer: 0
   m_Name: Teacher
   m_TagString: Hazards
@@ -155,7 +156,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2094389321294074782}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -250,7 +251,7 @@ AudioSource:
   Spatialize: 0
   SpatializePostEffects: 0
   Priority: 128
-  DopplerLevel: 1
+  DopplerLevel: 0
   MinDistance: 1
   MaxDistance: 40
   Pan2D: 0
@@ -327,6 +328,37 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!60 &6081632265637806675
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2094389321294074782}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.04240799, y: 1.6922808}
+      - {x: -0.2801752, y: 1.7027216}
+      - {x: -0.67729765, y: 0.8017833}
+      - {x: -0.5742373, y: 0.12577355}
+      - {x: 0.2626406, y: 0.13932061}
+      - {x: 0.36850643, y: 0.7831859}
 --- !u!1 &2261451832519412929
 GameObject:
   m_ObjectHideFlags: 0
@@ -490,8 +522,8 @@ MonoBehaviour:
   m_BoneTransforms:
   - {fileID: 6168808121776882640}
   m_Bounds:
-    m_Center: {x: -0.00008124113, y: -0.0008459091, z: 0}
-    m_Extent: {x: 0.22443753, y: 0.28556567, z: 0}
+    m_Center: {x: -0.00008028746, y: -0.00084784627, z: 0}
+    m_Extent: {x: 0.2244375, y: 0.2855656, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
   m_AutoRebind: 0
@@ -631,7 +663,7 @@ MonoBehaviour:
   m_BoneTransforms:
   - {fileID: 6411313862829669767}
   m_Bounds:
-    m_Center: {x: -0.00029687583, y: 0.0009687245, z: 0}
+    m_Center: {x: -0.0002978295, y: 0.00097063184, z: 0}
     m_Extent: {x: 0.16164067, y: 0.30495626, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
@@ -799,7 +831,7 @@ MonoBehaviour:
   m_BoneTransforms:
   - {fileID: 6028953141902104351}
   m_Bounds:
-    m_Center: {x: 0.00037187338, y: 0.0011728406, z: 0}
+    m_Center: {x: 0.00037187338, y: 0.0011709332, z: 0}
     m_Extent: {x: 0.16212817, y: 0.29882818, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
@@ -905,7 +937,7 @@ MonoBehaviour:
   m_BoneTransforms:
   - {fileID: 7466056431674217608}
   m_Bounds:
-    m_Center: {x: 0.0014973506, y: 0.0014415979, z: 0}
+    m_Center: {x: 0.0014968738, y: 0.0014396906, z: 0}
     m_Extent: {x: 0.123503156, y: 0.3141845, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1

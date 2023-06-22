@@ -7,13 +7,12 @@ public class StartMenu : MonoBehaviour
 {
     [SerializeField] private int waitingtime = 1;
     public static bool started = false;
-    
-
+    [SerializeField] private AudioSource sound;
     //will be called by the button
     public void Start()
     {
         finish_success.hide = false;
-        
+        sound = GetComponent<AudioSource>();
         DontDestroyOnLoad(gameObject);
     }
     public void Update()
@@ -21,9 +20,11 @@ public class StartMenu : MonoBehaviour
         
     }
 
+    //tutorial and start game buttons are on the main menu, both should be functions
     public void Tutorial()
     {
         SceneManager.LoadScene("tutorial");
+        sound.Play();
     }
     public void StartGame()
     {
@@ -32,12 +33,15 @@ public class StartMenu : MonoBehaviour
         finish_success.COMPLETE = false;
         Invoke("playpregame", 2.5f);
         started = true;
+        sound.Play();
     }
 
+    //not used
     public void playpregame()
     {
         
     }
+    //not used
     IEnumerator plswait()
     {
         yield return new WaitForSecondsRealtime(1);

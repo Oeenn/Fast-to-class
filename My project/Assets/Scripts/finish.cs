@@ -6,34 +6,44 @@ using UnityEngine.SceneManagement;
 
 public class finish : MonoBehaviour
 {
-    private AudioSource finishsound;
-    private bool levelcompleted = false;
+    
+    public static bool progression = false;
     //public Animator transition;
     [SerializeField] public float time = 0.5f;
+    public static int count = 0;
+    [SerializeField] public AudioSource tinkle;
 
+    public static int cliplength;
+    private void Update()
+    {
+        
+    }
     void Start()
     {
-        finishsound = GetComponent<AudioSource>();
+        tinkle = GetComponent<AudioSource>();
+        progression = false;
+        Debug.Log(Audiocontrol.index);
+        count = 0;
+
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.name == "Player" && !levelcompleted) 
-        { 
-            finishsound.time = 0f;
-            finishsound.Play();
-            Invoke("CompleteLevel", 1f);
-            levelcompleted = true;
-
+        //detect collison and go to next scene
+        if (collision.gameObject.name == "Player" && !progression && count == 0)
+        {
             
-
+            Invoke("CompleteLevel", 1f);
+            progression = true;
+            count = count + 1;
+            tinkle.Play();
+            
         }
     }
     public void CompleteLevel()
     {
-        //play animation
-        //transition.SetTrigger("Start");
-        //scenes are ordered in the build manager. Buildindex + 1 loads next scene (level)
+        
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        
     }
 
 }
